@@ -26,6 +26,7 @@ function AgregarGasto(){
         listaNombresGastos[indiceGasto] = nombreGasto;
         listaDescripcionesGastos[indiceGasto] = descripcionGasto;
         listaValoresGastos[indiceGasto] = valorGasto;
+        indiceGasto = null; // Reiniciar la variable para futuras entradas
     } else {
         //Si "se agrega" un "gasto nuevo"
         listaNombresGastos.push(nombreGasto);
